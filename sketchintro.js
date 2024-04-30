@@ -12,10 +12,11 @@ function setup() {
   fill('black');
   textFont(font);
   textSize(36);
-  
+
+ 
   beginbutton = createButton("Begin");
   beginbutton.mousePressed(begin);
-  beginbutton.position(470, 325); 
+  beginbutton.position(width/.9, height/1.1); 
   beginbutton.style('font-size', '30px');
   beginbutton.style('background-color',67,124,169); 
   beginbutton.style("padding", "10px"); 
@@ -24,7 +25,7 @@ function setup() {
 }
 
 function begin(){
-  //link to next page
+  window.location.href = "page1.html";
 }
 
 function draw() {
@@ -32,7 +33,7 @@ function draw() {
   textSize(100);
   text('"Eureka"', mouseX-50, 150);
   textSize (26);
-  text('by Edgar Allen Poe', 20, 350);
+  text('by Edgar Allen Poe', 90, height/1.2);
   //beginbutton = text('begin', 470, 350);
   
 }

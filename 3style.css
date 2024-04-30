@@ -4,13 +4,11 @@ html, body {
   }
   
   body{
-    background-color: tan;
+    background-color: rgba(67, 124, 169);
   }
   
   canvas {
     display: block;
     margin: auto ;
-
   }
-  
   

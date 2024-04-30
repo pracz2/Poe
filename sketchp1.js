@@ -12,40 +12,60 @@ let O3 = 175;
 let W = 260;
 let N = 380;
 
+let nextbutton;
+
 function preload() {
   font = loadFont('VictoriaTypewriter.ttf');
   
   img1 = loadImage('crow3.png');
   img2 = loadImage('crow4.png');
 }
+
+function windowResized() {
+  createCanvas(windowWidth, windowHeight);
+}
   
 
 function setup() {
-  createCanvas(700, 400);
+  createCanvas(windowWidth, windowHeight);
   fill('black');
   textFont(font);
-  textSize(46);
+  textSize(100);
   
+
+  nextbutton = createButton("Next");
+  nextbutton.mousePressed(begin);
+  nextbutton.position(width/1.3, height/1.2); 
+  nextbutton.style('font-size', '30px');
+  nextbutton.style('background-color',67,124,169); 
+  nextbutton.style("padding", "10px"); 
+  nextbutton.style("font", font); 
+
+}
+
+function begin(){
+  window.location.href = "page2.html";
 
 }
 
 function draw() {
   background(251, 250, 230);
+  frameRate(30);
   text('L', L, L-10);
   text('o', O1, O1 - 80);
   text('o', O2, O2-130);
   text('k', K, K-190);
   
-  image(img1, 200, 155);
-  image(img2, 300, 200);
+  //image(img1, 200, 155);
+  //image(img2, 300, 200);
   
   
     
-  image(img1, 0, 0);
-  image(img2, 100, 50);
+  //image(img1, 0, 0);
+  //image(img2, 100, 50);
     
-  image(img1, 400, 300);
-  image(img2, 500, 350);
+  //image(img1, 400, 300);
+  //image(img2, 1300, 700);
   
   text('D', D, D + 205);
   text('o', O3, O3 + 155);
@@ -60,7 +80,7 @@ function draw() {
   D = D+5;
   O3 = O3+3;
   W = W+4;
-  N = N+1;
+  N = N+2;
   
 
   
