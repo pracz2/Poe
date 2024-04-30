@@ -8,7 +8,7 @@ function preload() {
   
 
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(1100, 800);
   fill('black');
   textFont(font);
   textSize(36);
@@ -30,7 +30,7 @@ function begin(){
 function draw() {
   background(251, 250, 230);
   textSize(100);
-  text('"Eureka"', mouseX-100, 150);
+  text('"Eureka"', mouseX-50, 150);
   textSize (26);
   text('by Edgar Allen Poe', 20, 350);
   //beginbutton = text('begin', 470, 350);
