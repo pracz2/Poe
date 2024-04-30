@@ -5,13 +5,10 @@ html, body {
   
   body{
     background-color: rgba(67, 124, 169);
-    text-align: center;
   }
   
   canvas {
     display: block;
     margin: auto ;
-    margin-top: 5%;
   }
-
   

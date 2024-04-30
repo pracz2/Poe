@@ -41,8 +41,8 @@ function draw() {
   text('Into', CENTER, CENTER);
   fill(67, 124, 169);
   //var size = map(mouseX, 0, width, 300, 600);
-  text("Into", width/4.4, height/1.75);
-  image(img1, width/4.3, height/10);
+  text("Into", width/3.7, height/1.7);
+  image(img1, width/3.7, height/10);
   textSize(size);
   textAlign(CENTER, CENTER);
   

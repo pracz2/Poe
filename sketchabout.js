@@ -7,13 +7,18 @@ function preload() {
 
 function setup() {
   createCanvas(600, 400);
-  fill('deeppink');
+  fill('black');
   textFont(font);
-  textSize(36);
+  textSize(20);
 }
 
 function draw() {
   background(251, 250, 230);
-   text('p5*js', 10, 50);
+  rect(250, 250, 50, 30)
+  text('An exerpt from Eureka, by Edgar Allan Poe. ', 10, 120);
+  text('  The lengthy prose poem delves into his own', 10, 160);
+  text('ideas and interpretations of the metaphysical ', 10, 180);
+  text('universe. In this portion, one might find ', 10, 200);
   
+  text('something meaningful, or otherwise thoughtful.', 10, 220);
 }
