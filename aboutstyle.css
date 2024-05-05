@@ -14,4 +14,9 @@ html, body {
     margin-top: 5%;
   }
 
+  #nextbutton{
+    cursor: pointer;
+    padding-left: 5%;
+  }
+
   

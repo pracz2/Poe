@@ -13,11 +13,9 @@ canvas {
   margin-top: 5%;
 }
 
-.beginButton{
-  background-color: rgb(67, 124,169);
-  font-size: '30px';
-  padding: 2%;
-  
 
-}
+#nextbutton{
+  cursor: pointer;
+  padding-left: 45%;
+  }
 

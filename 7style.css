@@ -4,14 +4,14 @@ html, body {
   }
   
   body{
-    background-color: rgba(67, 124, 169);
+    background-color: #437ca9;
   }
   
   canvas {
     display: block;
     margin: auto ;
   }
-  
+
   #nextbutton{
     cursor: pointer;
     padding-left: 25%;

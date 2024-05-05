@@ -13,28 +13,22 @@ function setup() {
   textFont(font);
   textSize(36);
 
- 
-  beginbutton = createButton("Begin");
-  beginbutton.mousePressed(begin);
-  beginbutton.position(width/.9, height/1.1); 
-  beginbutton.style('font-size', '30px');
-  beginbutton.style('background-color',67,124,169); 
-  beginbutton.style("padding", "10px"); 
-  beginbutton.style("font", font); 
 
 }
 
-function begin(){
+function butClick(){
   window.location.href = "page1.html";
 }
+
 
 function draw() {
   background(251, 250, 230);
   textSize(100);
-  text('"Eureka"', mouseX-50, 150);
+  text('"Eureka"', constrain(mouseX, 0, width - textWidth("Eureka")),
+    	 constrain(mouseY, 0, height - 48 + textDescent()));
   textSize (26);
-  text('by Edgar Allen Poe', 90, height/1.2);
-  //beginbutton = text('begin', 470, 350);
+  text('by Edgar Allen Poe', width/30, height/2);
   
 }
+
 

@@ -12,3 +12,12 @@ html, body {
     margin: auto ;
   }
   
+  #nextbutton{
+    cursor: pointer;
+    padding-left: 25%;
+  }
+
+  #backbutton{
+    cursor: pointer;
+    padding-left: 25%;
+  }

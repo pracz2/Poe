@@ -6,7 +6,7 @@ let img1
 
 function preload() {
   font =loadFont('VictoriaTypewriter.ttf');
-  img1 =loadImage('BigCrow1.png');
+  img1 =loadImage('newcrow1.png');
 }
 
 function windowResized() {
@@ -18,20 +18,14 @@ function setup() {
   fill('black');
   textFont(font);
   textSize(200);
-
-  nextbutton = createButton("Next");
-  nextbutton.mousePressed(begin);
-  nextbutton.position(width/1.3, height/1.2); 
-  nextbutton.style('font-size', '30px');
-  nextbutton.style('background-color',67,124,169); 
-  nextbutton.style("padding", "10px"); 
-  nextbutton.style("font", font); 
-
 }
 
-function begin(){
-  window.location.href = "page3.html";
+function butClick(backbutton){
+  window.location.href = "page1.html";
+}
 
+function butClick(nextbutton){
+  window.location.href = "page3.html";
 }
 
 
@@ -42,7 +36,7 @@ function draw() {
   fill(67, 124, 169);
   //var size = map(mouseX, 0, width, 300, 600);
   text("Into", width/3.7, height/1.7);
-  image(img1, width/3.7, height/10);
+  image(img1, width/4, height/6.7);
   textSize(size);
   textAlign(CENTER, CENTER);
   
