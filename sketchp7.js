@@ -41,7 +41,6 @@ function draw() {
     fadeOpacity += 1; 
   }
   
-  image(img, width/1, height/1);
   
   
 }
