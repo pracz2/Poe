@@ -1,12 +1,10 @@
 let font;
 let fadeOpacity = 0;
 let buttonOpacity = 0;
-let img 
 
 
 function preload() {
   font = loadFont('VictoriaTypewriter.ttf');
-  img = loadImage('Bigcrow2.png')
 }
   
 function windowResized() {
