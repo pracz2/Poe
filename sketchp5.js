@@ -33,7 +33,7 @@ function butClick(backbutton){
   window.location.href = "page4.html";
 }
 
-function butClick(nextbutton){
+function forClick(nextbutton){
   window.location.href = "page6.html";
 }
 
@@ -45,12 +45,17 @@ function draw() {
   fill(67, 124, 169);
   textSize(200);
   text('force the gaze', loc, 500);
-  loc = loc + 3;
+  loc = loc + 10;
+
+  fill('black');
+    textSize(100);
+  text('down', 1400, loc2);
+    loc2 = loc2 + 0.5;
   
  
-  if (loc > canvasWidth) {
+  if (loc > canvasWidth + 1300) {
     textLeftPage = true;
-    loc = -1000;
+    loc = -1550;
   }
   
 
@@ -59,8 +64,7 @@ function draw() {
   } else {
     fill('black');
     textSize(100);
-    text('down', 1400, loc2);
-    loc2 = loc2 + 0.5;
+
     text('Attempt to', 10, 90);
     fill(67, 124, 169);
   }

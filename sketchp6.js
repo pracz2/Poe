@@ -22,11 +22,11 @@ function windowResized() {
 
 
 function butClick(backbutton){
-    window.location.href = "page5.html";
+  window.location.href = "page5.html";
 }
-  
-function butClick(nextbutton){
-    window.location.href = "page7.html";
+
+function forClick(nextbutton){
+  window.location.href = "page7.html";
 }
 
 function drawDebug(x, y, radius) {
@@ -82,6 +82,6 @@ function draw() {
   imageMode(CENTER);
   image(img1, circleX, circleY);
   
-  image(img2, width/1.4, height/1.3);
+  image(img2, width/1.3, height/1.3);
   
 }

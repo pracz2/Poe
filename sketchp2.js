@@ -24,7 +24,7 @@ function butClick(backbutton){
   window.location.href = "page1.html";
 }
 
-function butClick(nextbutton){
+function forClick(nextbutton){
   window.location.href = "page3.html";
 }
 

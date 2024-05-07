@@ -37,13 +37,13 @@ function butClick(backbutton){
   window.location.href = "index.html";
 }
 
-function butClick(nextbutton){
+function forClick(nextbutton){
   window.location.href = "page2.html";
 }
 
 function draw() {
   background(251, 250, 230);
-  image(img, width/3, height/5);
+  image(img, width/2, height/5.3);
   frameRate(30);
   text('L', L, L-10);
   text('o', O1, O1 - 80);

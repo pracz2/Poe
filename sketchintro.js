@@ -19,7 +19,7 @@ function setup() {
 
 }
 
-function butClick(){
+function forClick(){
   window.location.href = "page1.html";
 }
 

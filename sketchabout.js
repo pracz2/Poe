@@ -12,7 +12,7 @@ function setup() {
   textSize(20);
 }
 
-function butClick(nextbutton){
+function forClick(nextbutton){
   window.location.href = "index.html";
 }
 
