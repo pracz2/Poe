@@ -1,6 +1,6 @@
 let font;
 
-let loc = -50;
+let loc = -55;
 
 let loc2 = 700;
 
@@ -45,7 +45,7 @@ function draw() {
   fill(67, 124, 169);
   textSize(200);
   text('force the gaze', loc, 500);
-  loc = loc + 10;
+  loc = loc + 7;
 
   fill('black');
     textSize(100);
