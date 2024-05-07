@@ -6,6 +6,7 @@ let img1
 
 function preload() {
   font =loadFont('VictoriaTypewriter.ttf');
+  img1 = loadImage('cropcrow.png');
 }
 
 function windowResized() {
@@ -32,12 +33,14 @@ function butClick(nextbutton){
 function draw() {
   background(251, 250, 230);
   fill(67, 124, 169);
-  //var size = map(mouseX, 0, width, 300, 600);
+ 
+  image(img1, width/130, height/10000);
+  
   text("Into", -450, height/1.7);
   textSize(size);
   textAlign(CENTER, CENTER);
   
-   
+  
 }
 
 

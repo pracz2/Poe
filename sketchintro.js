@@ -2,8 +2,11 @@ let font;
 
 var beginbutton;
 
+let backimg
+
 function preload() {
   font = loadFont('VictoriaTypewriter.ttf');
+  backimg= loadImage('background.png');
 }
   
 
@@ -12,7 +15,7 @@ function setup() {
   fill('black');
   textFont(font);
   textSize(36);
-
+  
 
 }
 
@@ -23,11 +26,12 @@ function butClick(){
 
 function draw() {
   background(251, 250, 230);
+  image(backimg, -525,-20);
   textSize(100);
   text('"Eureka"', constrain(mouseX, 0, width - textWidth("Eureka")),
     	 constrain(mouseY, 0, height - 48 + textDescent()));
   textSize (26);
-  text('by Edgar Allen Poe', width/30, height/2);
+  text('by Edgar Allen Poe', width/2.8, height/1.8);
   
 }
 

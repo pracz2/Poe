@@ -36,7 +36,7 @@ function draw() {
   fill(67, 124, 169);
   //var size = map(mouseX, 0, width, 300, 600);
   text("Into", width/3.7, height/1.7);
-  image(img1, width/4, height/6.7);
+  image(img1, width/4.1, height/6.15);
   textSize(size);
   textAlign(CENTER, CENTER);
   

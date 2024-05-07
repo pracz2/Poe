@@ -3,11 +3,11 @@ let font;
 let nextbutton;
 
 let img1
-let img2
+
 
 function preload() {
   font =loadFont('VictoriaTypewriter.ttf');
-  img2 = loadImage('abysmal_dist.png');
+  img1 = loadImage('abysmal_dist.png');
 }
 
 function windowResized() {
@@ -18,7 +18,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   fill('black');
   textFont(font);
-  textSize(1300);
+  textSize(1500);
 }
 
 
@@ -31,17 +31,17 @@ function butClick(nextbutton){
 }
 
 
-
-
 function draw() {
   background(251, 250, 230);
   fill(67, 124, 169);
   
-  text("Into", -1900, height/1.35);
+  image(img1, width/2.55, height/3.4);
+
+  text("Into", -2350, height/1.35);
   textSize(size);
   textAlign(CENTER, CENTER);
 
-  image(img2, width/2, height/2);
+
   
 }
 
